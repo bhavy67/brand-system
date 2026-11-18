@@ -1,0 +1,31 @@
+/* Bhavy Ladani: visual tokens. Monochrome, light theme. */
+:root {
+  /* Surface */
+  --bg:            #F6F6F4;  /* page / card background (warm off-white) */
+  --surface:       #FFFFFF;  /* raised elements */
+  --border:        #D9D9D5;  /* hairlines, frames */
+  --border-strong: #CFCFCA;
+
+  /* Ink */
+  --ink:           #0E0E0E;  /* headlines */
+  --ink-body:      #4A4A46;  /* body / subtitles */
+  --ink-muted:     #6B6B66;  /* labels, captions */
+  --ink-faint:     #8C8C86;  /* accent dot, disabled */
+
+  /* Type */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'DejaVu Sans Mono', ui-monospace, monospace;
+
+  /* Scale (1200x627 canvas) */
+  --fs-display: 92px;  --lh-display: 1;    --ls-display: -0.04em;
+  --fs-sub:     30px;  --lh-sub: 1.35;     --ls-sub: -0.01em;
+  --fs-label:   20px;  --ls-label: 0.18em;
+  --fs-pill:    24px;
+
+  /* Shape */
+  --radius-frame: 20px;
+  --radius-pill: 999px;
+  --stroke: 1.5px;
+  --pad-x: 72px;
+  --pad-y: 64px;
+}

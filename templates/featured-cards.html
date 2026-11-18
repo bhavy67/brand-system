@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#fff}
+.card{width:1200px;height:627px;position:relative;overflow:hidden;background:#F6F6F4;color:#111;font-family:'Inter',sans-serif;padding:64px 72px;display:flex;flex-direction:column;justify-content:space-between}
+.frame{position:absolute;inset:24px;border:1.5px solid #D9D9D5;border-radius:20px;pointer-events:none}
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
+.tag{font-family:'DejaVu Sans Mono',monospace;font-size:20px;letter-spacing:.18em;color:#6B6B66;text-transform:uppercase}
+.mono{font-family:'DejaVu Sans Mono',monospace}
+.main{position:relative;z-index:2;max-width:640px}
+h1{font-size:92px;line-height:1;font-weight:700;letter-spacing:-.04em;color:#0E0E0E}
+h1 span{color:#8C8C86;font-weight:500}
+p.sub{margin-top:28px;font-size:30px;line-height:1.35;color:#4A4A46;font-weight:400;letter-spacing:-.01em;max-width:600px}
+.bottom{display:flex;align-items:center;gap:18px;position:relative;z-index:2}
+.url{display:inline-flex;align-items:center;gap:14px;background:#111;color:#F6F6F4;font-family:'DejaVu Sans Mono',monospace;font-size:24px;padding:16px 26px;border-radius:999px}
+.rule{flex:1;height:1.5px;background:#D9D9D5}
+.art{position:absolute;right:0;top:0;width:520px;height:627px;z-index:1}
+</style></head><body>
+
+<!-- 1 PORTFOLIO -->
+<div class="card" id="c1">
+  <div class="frame"></div>
+  <div class="top"><div class="tag">Portfolio</div></div>
+  <div class="main">
+    <h1>Bhavy<br>Ladani<span>.</span></h1>
+    <p class="sub">Full-Stack Software Engineer building scalable, high-performance web systems.</p>
+  </div>
+  <div class="bottom"><div class="url">bhavyladani.in &nbsp;→</div><div class="rule"></div></div>
+  <svg class="art" viewBox="0 0 520 627" fill="none"><g transform="translate(-150,0)">
+    <g stroke="#D2D2CD" stroke-width="1.5">
+      <rect x="250" y="120" width="300" height="300" rx="6"/>
+      <rect x="290" y="160" width="300" height="300" rx="6"/>
+    </g>
+    <rect x="330" y="200" width="300" height="300" rx="6" fill="#111"/>
+    <text x="400" y="395" font-family="Inter" font-weight="700" font-size="120" letter-spacing="-6" fill="#F6F6F4">BL</text></g>
+  </svg>
+</div>
+
+<!-- 2 GITHUB -->
+<div class="card" id="c2">
+  <div class="frame"></div>
+  <div class="top"><div class="tag">GitHub</div></div>
+  <div class="main">
+    <h1>Code, in<br>the open<span>.</span></h1>
+    <p class="sub">Full-stack apps, experiments and engineering notes — built and shared publicly.</p>
+  </div>
+  <div class="bottom"><div class="url">github.com/bhavy67 &nbsp;→</div><div class="rule"></div></div>
+  <svg class="art" viewBox="0 0 520 627" fill="none"><g transform="translate(20,0)">
+    <g stroke="#CFCFCA" stroke-width="3" stroke-linecap="round">
+      <path d="M330 90 V380"/>
+      <path d="M330 190 C330 240 430 220 430 280"/>
+      <path d="M330 380 C330 420 410 400 410 440"/>
+    </g>
+    <g stroke-width="3">
+      <circle cx="330" cy="90" r="16" fill="#F6F6F4" stroke="#111"/>
+      <circle cx="330" cy="190" r="16" fill="#111" stroke="#111"/>
+      <circle cx="430" cy="280" r="16" fill="#F6F6F4" stroke="#111"/>
+      <circle cx="330" cy="290" r="16" fill="#F6F6F4" stroke="#111"/>
+      <circle cx="330" cy="380" r="16" fill="#111" stroke="#111"/>
+      <circle cx="410" cy="440" r="16" fill="#F6F6F4" stroke="#111"/>
+    </g></g>
+  </svg>
+</div>
+
+<!-- 3 BLOG -->
+<div class="card" id="c3">
+  <div class="frame"></div>
+  <div class="top"><div class="tag">Technical Blog</div></div>
+  <div class="main">
+    <h1>Thoughts.<br>Learnings.<br>Builds<span>.</span></h1>
+  </div>
+  <div class="bottom"><div class="url">bhavycodes.hashnode.dev &nbsp;→</div><div class="rule"></div></div>
+  <svg class="art" viewBox="0 0 520 627" fill="none"><g transform="translate(-120,0)">
+    <rect x="290" y="110" width="270" height="360" rx="10" fill="#fff" stroke="#D2D2CD" stroke-width="1.5"/>
+    <rect x="326" y="150" width="120" height="16" rx="8" fill="#111"/>
+    <g fill="#D9D9D5">
+      <rect x="326" y="196" width="200" height="10" rx="5"/>
+      <rect x="326" y="222" width="180" height="10" rx="5"/>
+      <rect x="326" y="248" width="200" height="10" rx="5"/>
+      <rect x="326" y="274" width="130" height="10" rx="5"/>
+    </g>
+    <rect x="326" y="316" width="200" height="74" rx="8" fill="#111"/>
+    <g fill="#8C8C86">
+      <rect x="344" y="334" width="70" height="8" rx="4"/>
+      <rect x="344" y="354" width="120" height="8" rx="4"/>
+    </g>
+    <g fill="#D9D9D5">
+      <rect x="326" y="414" width="180" height="10" rx="5"/>
+      <rect x="326" y="440" width="110" height="10" rx="5"/>
+    </g></g>
+  </svg>
+</div>
+</body></html>
