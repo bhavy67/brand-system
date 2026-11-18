@@ -76,7 +76,7 @@ New motifs follow the same grammar: outlines in `--border-strong`, one or two so
 - No gradients (purple/blue/neon or otherwise), glows, glassmorphism, drop-shadow stacks or blurred blobs.
 - No colour. Not even "just one accent".
 - No glossy 3D shapes, robots, brains, circuit boards, neural-net meshes, floating code windows, sparkles or rockets.
-- No stock-photo style imagery, generated "hero" art, or decorative particles/grids/noise.
+- No stock-photo style imagery, generated "hero" art, or decorative particles/grids/noise. (Single exception: photos and honest generated images attached to LinkedIn posts, under [`linkedin/images.md`](linkedin/images.md). Brand graphics never use them.)
 - No random brand logo rows or tech-icon walls to look impressive.
 - No emoji, no clip-art icons, no icon in a rounded-square tile for every bullet.
 - No more than one font family for text plus one mono.

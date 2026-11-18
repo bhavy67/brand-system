@@ -45,6 +45,8 @@ Refuse these even if they look "polished":
 - Invented metrics or claims. Triple-tagline filler. Exclamation marks. Rhetorical questions. "It's not X, it's Y" phrasing.
 - Centred-everything layouts, tiny text, more than one CTA.
 
+Exception: a photo or generated image for a LinkedIn post follows `linkedin/images.md` and the `linkedin-post` skill instead. Brand graphics themselves never use generated imagery.
+
 If the request pushes toward any of these, keep the system and say why in one sentence. Offer the minimal alternative.
 
 ## Slop test

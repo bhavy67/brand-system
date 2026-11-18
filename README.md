@@ -15,7 +15,8 @@ One visual and written system for everything I publish: profile photo, logo, cov
 - [`tokens/tokens.css`](tokens/tokens.css): colour, type and spacing tokens
 - [`templates/`](templates): editable HTML sources and a Playwright render script
 - [`assets/`](assets): logo (SVG/PNG), LinkedIn cover, blog cover, post and carousel templates, diagram example, featured cards
-- [`skills/`](skills): `brand-visuals` and `brand-content` skills for Claude
+- [`linkedin/`](linkedin): LinkedIn post playbook: post types, hooks, endings, image modes and generation rules, originality checks, brief template and a `posts/` log
+- [`skills/`](skills): `brand-visuals`, `brand-content` and `linkedin-post` skills for Claude
 
 ## Make a new asset
 
@@ -29,4 +30,4 @@ Check it at full size and at about 185px wide, then run the slop test in `DESIGN
 
 ## Use with Claude
 
-Copy `skills/brand-visuals/` and `skills/brand-content/` into your Claude skills folder, or point Claude at this repo's `CLAUDE.md`.
+Copy `skills/brand-visuals/`, `skills/brand-content/` and `skills/linkedin-post/` into your Claude skills folder, or point Claude at this repo's `CLAUDE.md`.

@@ -5,7 +5,7 @@ description: Write LinkedIn post ideas, captions, carousel copy, blog titles and
 
 # Brand Content
 
-Follow `CONTENT_RULES.md`. Pair with the `brand-visuals` skill when a post needs a graphic.
+Follow `CONTENT_RULES.md`. For a full LinkedIn post (100 to 150 words plus image), use the `linkedin-post` skill instead. Pair with the `brand-visuals` skill when a post needs a graphic.
 
 ## Process
 
